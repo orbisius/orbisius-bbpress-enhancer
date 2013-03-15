@@ -1,4 +1,4 @@
-Orbisius bbPress Enhancer
+Orbisius bbPress Enhancer - http://club.orbisius.com/products/
 =========================
 
 This WordPress plugin adds missing or not yet implemented functionality to bbPress. 
@@ -10,3 +10,10 @@ This WordPress plugin adds missing or not yet implemented functionality to bbPre
 
 * Make the user autologin after registering
     This makes it super easy for the users after they register to be autologged in. Compatible with S2Member plugin.
+
+
+If you have found a glitch
+==========================
+
+https://github.com/orbisius/orbisius-bbpress-enhancer/issues
+
