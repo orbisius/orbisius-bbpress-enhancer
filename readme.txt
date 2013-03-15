@@ -11,16 +11,16 @@ This plugin adds missing or not yet implemented functionality to bbPress.
 
 == Description ==
 
-This is a simple plugin which has the goal to save users about 1-3 seconds when they are posting in your bbPress powered forums.
-The plugin makes the checkbox 'Notify me of follow-up replies via email' checked off so the user is notified for new replies.
+This plugin adds missing or not yet implemented functionality to bbPress. 
 
 = Support =
-* Support is handled on our site: <a href="http://club.orbisius.com/support/" target="_blank" title="[new window]">http://club.orbisius.com/support/</a>
-* Please do NOT use the WordPress forums or other places to seek support.
+> Support is handled on our site: <a href="http://club.orbisius.com/support/" target="_blank" title="[new window]">http://club.orbisius.com/support/</a>
+> Please do NOT use the WordPress forums or other places to seek support.
 
 = Benefits / Features =
 
 * This adds author support for the forum posts i.e. you can change the author of a bbPress forum post.
+
 * Makes sure that the checkbox Notify me of follow-up replies via email below each forum reply is checked View
     When you have the checkbox checked this reduces chance of the user forgetting to click it and therefore won't be notified for future replies.
 

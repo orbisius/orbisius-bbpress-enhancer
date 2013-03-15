@@ -155,10 +155,17 @@ function orbisius_bbpress_enhancer_options_page() {
                         <li>When you have the checkbox checked this reduces chance of the user forgetting to click it and therefore won't be notified for future replies.</li>
                     </ul>
                 </li>
-                <li>Make the user autologin after registering
+                <li>Automatically login the user after a registration
                     <ul>
                         <li>This makes it super easy for the users after they register to be autologged in.
                             Compatible with S2Member plugin.
+                        </li>
+                    </ul>
+                </li>
+                <li>Redirect to previous forum page (TODO)
+                    <ul>
+                        <li>Many bbPress installation require the user to login or register in order to post a topic.
+                            The plugin will add the forum web link and redirect the user after that.
                         </li>
                     </ul>
                 </li>
