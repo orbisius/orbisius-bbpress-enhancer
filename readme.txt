@@ -37,10 +37,10 @@ Svetoslav Marinov (Slavi) | <a href="http://orbisius.com" title="Custom Web Prog
 == Installation ==
 
 = Automatic Install =
-Please go to Wordpress Admin &gt; Plugins &gt; Add New Plugin &gt; Search for: Orbisius bbPress Always Notify and then press install
+Please go to Wordpress Admin &gt; Plugins &gt; Add New Plugin &gt; Search for: Orbisius bbPress Enhancer and then press install
 
 = Manual Installation =
-1. Upload orbisius-bbpress-always-notify.zip into to the `/wp-content/plugins/` directory
+1. Upload orbisius-bbpress-enhancer.zip into to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
