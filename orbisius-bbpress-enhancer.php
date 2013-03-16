@@ -59,6 +59,17 @@ function orbisius_bbpress_enhancer_init() {
     add_action('user_register', 'orbisius_bbpress_enhancer_auto_login');
 	add_action('wp_footer', 'orbisius_bbpress_enhancer_add_plugin_credits', 1000); // be the last in the footer
 
+    /*
+     * TODO
+     * 1. add form to a post
+     * 2. redirect to a forum after login/reg
+     * 3. convert comments into forum replies + create an account for the user
+     */
+
+    // http://codex.bbpress.org/shortcodes/
+    //[bbp-xxx-xxx id=$forum_id]
+    add_shortcode( 'bbp-xp-new-topic-form', 'orbisius_bbpress_enhancer_shortcode_xp_new_topic_form' );
+
     // todo add filter and append redirect_to .. if a forum post was accessed and after login or reg will go there.
     /*
      add_filter( 'login_url', 'another_login_url', 10, 2);
@@ -74,6 +85,22 @@ function another_login_url( $force_reauth, $redirect ){
     return $login_url ;
 }
      */
+}
+
+/**
+ * Replaces the [bbp-xp-new-topic-form id=123] adds a new topic form.
+ * @param array $attr Description
+ * @return string Description
+ * @see http://codex.bbpress.org/shortcodes/
+ */
+function orbisius_bbpress_enhancer_shortcode_xp_new_topic_form($attr = array()) {
+    $buff = '';
+
+    if (!isset($attr['active']) || $attr['active'] == 1) {
+        $buff = do_shortcode($buff);
+    }
+
+	return $buff;
 }
 
 // Add the ? settings link in Plugins page very good

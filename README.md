@@ -17,3 +17,10 @@ If you have found a glitch
 
 https://github.com/orbisius/orbisius-bbpress-enhancer/issues
 
+
+
+To download and update
+cd to/to/plugins/ directory
+git clone https://github.com/orbisius/orbisius-bbpress-enhancer.git
+git pull
+
