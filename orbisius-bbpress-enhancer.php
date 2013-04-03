@@ -3,7 +3,7 @@
 Plugin Name: Orbisius bbPress Enhancer
 Plugin URI: http://club.orbisius.com/products/
 Description: This plugin adds missing or not yet implemented functionality to bbPress.
-Version: 1.0.0
+Version: 1.0.1
 Author: Svetoslav Marinov (Slavi)
 Author URI: http://orbisius.com
 */

@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Orbisius,wordpress,wp,plugins,bbpress,plugins,email notification,notification,email,register,signup
 Requires at least: 2.0.2
 Tested up to: 3.5.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 
 This plugin adds missing or not yet implemented functionality to bbPress.
@@ -19,7 +19,7 @@ This plugin adds missing or not yet implemented functionality to bbPress.
 
 = Benefits / Features =
 
-* This adds author support for the forum posts i.e. you can change the author of a bbPress forum post.
+* This adds author support for the forum topics and replies i.e. you can change the author of a bbPress forum post.
 
 * Makes sure that the checkbox Notify me of follow-up replies via email below each forum reply is checked View
     When you have the checkbox checked this reduces chance of the user forgetting to click it and therefore won't be notified for future replies.
@@ -61,6 +61,9 @@ Please do NOT use the WordPress forums or other places to seek support.
 n/a
 
 == Changelog ==
+
+= 1.0.1 =
+* Added author support for the replies too
 
 = 1.0.0 =
 * Initial Release
