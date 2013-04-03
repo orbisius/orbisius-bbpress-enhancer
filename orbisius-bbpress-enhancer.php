@@ -49,6 +49,7 @@ function orbisius_bbpress_enhancer_init() {
 
         function orbisius_bbpress_enhancer_enable_topic_features() {
             add_post_type_support('topic', 'author');
+            add_post_type_support('reply', 'author');
         }
 
         //then allow subscribers to be authors...good for transfering to bbPress forum which uses custom post types
