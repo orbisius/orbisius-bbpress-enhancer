@@ -3,8 +3,8 @@ Contributors: lordspace
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7APYDVPBCSY9A
 Tags: Orbisius,wordpress,wp,plugins,bbpress,plugins,email notification,notification,email,register,signup
 Requires at least: 2.0.2
-Tested up to: 3.5.1
-Stable tag: 1.0.1
+Tested up to: 3.5.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 This plugin adds missing or not yet implemented functionality to bbPress.
@@ -61,6 +61,9 @@ Please do NOT use the WordPress forums or other places to seek support.
 n/a
 
 == Changelog ==
+
+= 1.0.2 =
+* Tested with wp 3.5.2
 
 = 1.0.1 =
 * Added author support for the replies too
